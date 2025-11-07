@@ -19,9 +19,6 @@ Thumbs.db
 *.tmp
 *.temp
 
-# PHPUnit cache
-.phpunit.result.cache
-
 # Docker
 .docker/
 
