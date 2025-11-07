@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  php:
+    build: .
+    container_name: word-reverser-test
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: vendor/bin/phpunit
+    environment:
+      - PHP_MEMORY_LIMIT=512M
+
